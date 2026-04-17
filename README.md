@@ -1,1 +1,0 @@
-# Tarihin-Izinde
