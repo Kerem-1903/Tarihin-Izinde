@@ -7,47 +7,47 @@ import { NavigationCards } from "@/components/navigation-cards";
 import { BookOpen, Users, Landmark, Star } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Karahanli Devleti | Turk Devletleri ve Goc Yollari",
+  title: "Karahanlı Devleti | Türk Devletleri ve Göç Yolları",
   description:
-    "Ilk Musluman Turk devleti. Kasgarli Mahmut'un Divanu Lugati't-Turk ve Yusuf Has Hacib'in Kutadgu Bilig eserlerinin yazildigi donemin devleti.",
+    "İlk Müslüman Türk devleti. Kaşgarlı Mahmut'un Divanu Lugati't-Türk ve Yusuf Has Hacib'in Kutadgu Bilig eserlerinin yazıldığı dönemin devleti.",
 };
 
 export default function KarahanliPage() {
   const infoItems = [
     {
       icon: BookOpen,
-      title: "Onemli Eserler",
+      title: "Önemli Eserler",
       items: [
-        "Divanu Lugati't-Turk - Kasgarli Mahmut",
+        "Divanu Lugati't-Türk - Kaşgarlı Mahmut",
         "Kutadgu Bilig - Yusuf Has Hacib",
-        "Atabetul Hakayik - Edip Ahmet Yukneki",
+        "Atabetü'l Hakayık - Edip Ahmet Yükneki",
       ],
     },
     {
       icon: Users,
-      title: "Onemli Kisiler",
+      title: "Önemli Kişiler",
       items: [
-        "Satuk Bugra Han - Islami kabul eden ilk hukumdar",
-        "Kasgarli Mahmut - Buyuk dilci",
-        "Yusuf Has Hacib - Siyasetname yazari",
+        "Satuk Buğra Han - İslâm'ı kabul eden ilk hükümdar",
+        "Kaşgarlı Mahmut - Büyük dilci",
+        "Yusuf Has Hacib - Siyasetname yazarı",
       ],
     },
     {
       icon: Landmark,
-      title: "Baskentler",
+      title: "Başkentler",
       items: [
-        "Balasagun - Dogu Karahanlılar",
-        "Semerkant - Bati Karahanlılar",
-        "Kasgar - Kulturel merkez",
+        "Balasagun - Doğu Karahanlılar",
+        "Semerkant - Batı Karahanlılar",
+        "Kaşgar - Kültürel merkez",
       ],
     },
     {
       icon: Star,
-      title: "Ilkler",
+      title: "İlkler",
       items: [
-        "Ilk Musluman Turk devleti",
-        "Turkcede ilk Islam edebiyati",
-        "Medrese geleneginin baslangici",
+        "İlk Müslüman Türk devleti",
+        "Türkçede ilk İslâm edebiyatı",
+        "Medrese geleneğinin başlangıcı",
       ],
     },
   ];
@@ -56,86 +56,86 @@ export default function KarahanliPage() {
     <div>
       <PageHeader
         emoji="🕌"
-        title="Karahanli Devleti"
-        subtitle="Ilk Musluman Turk devleti. Turk-Islam sentezinin temelleri bu donemde atilmis, Turk dili ve edebiyati altin cagini yasamistir."
+        title="Karahanlı Devleti"
+        subtitle="İlk Müslüman Türk devleti. Türk-İslâm sentezinin temelleri bu dönemde atılmış, Türk dili ve edebiyatı altın çağını yaşamıştır."
         period="840 - 1212"
-        location="Orta Asya (Maverauunnehr - Dogu Turkistan)"
-        founder="Bilge Kul Kadir Han"
+        location="Orta Asya (Mâverâünnehr - Doğu Türkistan)"
+        founder="Bilge Kül Kadir Han"
       />
 
-      <ContentSection title="Islamiyet'in Kabulü">
+      <ContentSection title="İslâmiyet'in Kabulü">
         <p>
-          Karahanli Devleti, Turk tarihinin donüm noktalarindan birini
-          olusturur. 920 yillari civarinda Satuk Bugra Han&apos;in Islamiyet&apos;i
-          kabul etmesiyle Turkler, Muusluman dunya ile kalici bir bag
-          kurmustur.
+          Karahanlı Devleti, Türk tarihinin dönüm noktalarından birini
+          oluşturur. 920 yılları civarında Satuk Buğra Han&apos;ın İslâmiyet&apos;i
+          kabul etmesiyle Türkler, Müslüman dünya ile kalıcı bir bağ
+          kurmuştur.
         </p>
         <p className="mt-4">
-          Bu din degisikligi, sadece dini degil, kulturel, sosyal ve siyasi
-          alanda da koklü donusumler getirmistir. Turk-Islam sentezi bu
-          donemde sekillenmeye baslmis ve yuzyillar boyunca Turk
-          kimliginin temelini olusturmustur.
+          Bu din değişikliği, sadece dinî değil, kültürel, sosyal ve siyasî
+          alanda da köklü dönüşümler getirmiştir. Türk-İslâm sentezi bu
+          dönemde şekillenmeye başlamış ve yüzyıllar boyunca Türk
+          kimliğinin temelini oluşturmuştur.
         </p>
       </ContentSection>
 
       <InfoSection
-        title="Karahanli Devleti Hakkinda"
-        description="Turk-Islam kulturunun temellerinin atildigi donem"
+        title="Karahanlı Devleti Hakkında"
+        description="Türk-İslâm kültürünün temellerinin atıldığı dönem"
         items={infoItems}
       />
 
       <ContentSection
-        title="Divanu Lugati't-Turk - Turkcenin Hazinesi"
+        title="Divanu Lugati't-Türk - Türkçenin Hazinesi"
         className="bg-muted/30"
       >
         <p>
-          Kasgarli Mahmut tarafindan 1072-1074 yillari arasında yazilan
-          Divanu Lugati&apos;t-Turk, Turk dili ve kulturunun en onemli
-          eserlerinden biridir. Araplara Turkceyi ogretmek amaciyla yazilan
-          bu sozluk, ayni zamanda bir ansiklopedi niteligi tasimaktadir.
+          Kaşgarlı Mahmut tarafından 1072-1074 yılları arasında yazılan
+          Divanu Lugati&apos;t-Türk, Türk dili ve kültürünün en önemli
+          eserlerinden biridir. Araplara Türkçeyi öğretmek amacıyla yazılan
+          bu sözlük, aynı zamanda bir ansiklopedi niteliği taşımaktadır.
         </p>
         <p className="mt-4">
-          Eserde 7500&apos;den fazla Turkce kelime, atasozleri, siirler ve
-          Turklerin yasam bicimleri hakkinda bilgiler yer almaktadir.
-          Ayrica ilk Turkce dunya haritasi da bu eserde bulunmaktadir.
+          Eserde 7500&apos;den fazla Türkçe kelime, atasözleri, şiirler ve
+          Türklerin yaşam biçimleri hakkında bilgiler yer almaktadır.
+          Ayrıca ilk Türkçe dünya haritası da bu eserde bulunmaktadır.
         </p>
       </ContentSection>
 
       <ContentSection title="Kutadgu Bilig - Mutluluk Bilgisi">
         <p>
-          1069 yilinda Yusuf Has Hacib tarafindan yazilan Kutadgu Bilig,
-          Turk edebiyatinin ilk siyasetnamesidir. &quot;Mutluluk Veren
-          Bilgi&quot; anlamina gelen eser, ideal devlet yonetimi ve erdemli
-          yasam hakkinda ogutler vermektedir.
+          1069 yılında Yusuf Has Hacib tarafından yazılan Kutadgu Bilig,
+          Türk edebiyatının ilk siyasetnamesidir. &quot;Mutluluk Veren
+          Bilgi&quot; anlamına gelen eser, ideal devlet yönetimi ve erdemli
+          yaşam hakkında öğütler vermektedir.
         </p>
         <p className="mt-4">
-          Eserde dort sembolik karakter uzerinden adalet, devlet, akil ve
-          kanaat kavramlari islenmistir. Bugn bile guncelligini koruyan
-          bu eser, Turk siyasi dusuncesinin temel taslarindan biridir.
+          Eserde dört sembolik karakter üzerinden adalet, devlet, akıl ve
+          kanaat kavramları işlenmiştir. Bugün bile güncelliğini koruyan
+          bu eser, Türk siyasî düşüncesinin temel taşlarından biridir.
         </p>
       </ContentSection>
 
-      <ContentSection title="Ikiye Bolunme ve Yikilis" className="bg-muted/30">
+      <ContentSection title="İkiye Bölünme ve Yıkılış" className="bg-muted/30">
         <p>
-          1042 yilinda Karahanli Devleti Dogu ve Bati olmak uzere ikiye
-          bolunmustur. Dogu Karahanlılar Balasagun, Bati Karahanlılar ise
-          Semerkant merkezli olarak varliklarini surdurumustur.
+          1042 yılında Karahanlı Devleti Doğu ve Batı olmak üzere ikiye
+          bölünmüştür. Doğu Karahanlılar Balasagun, Batı Karahanlılar ise
+          Semerkant merkezli olarak varlıklarını sürdürmüştür.
         </p>
         <p className="mt-4">
-          Her iki devlet de zamanla Selcuklulara ve Karahitaylara bagli
-          hale gelmistir. 1212 yilinda Harezmsahlar tarafindan tamamen
-          ortadan kaldirilmislardir.
+          Her iki devlet de zamanla Selçuklulara ve Karahitaylara bağlı
+          hale gelmiştir. 1212 yılında Harezmşahlar tarafından tamamen
+          ortadan kaldırılmışlardır.
         </p>
         <p className="mt-4">
-          Ancak Karahanlilar, geride zengin bir edebiyat ve kultur mirasi
-          birakmistir. Turk-Islam medeniyetinin temelleri bu donemde
-          atilmis ve sonraki devletlere ilham kaynagi olmustur.
+          Ancak Karahanlılar, geride zengin bir edebiyat ve kültür mirası
+          bırakmıştır. Türk-İslâm medeniyetinin temelleri bu dönemde
+          atılmış ve sonraki devletlere ilham kaynağı olmuştur.
         </p>
       </ContentSection>
 
       <QRCodeSection
         url="https://tarih-portali.vercel.app/karahanli"
-        title="Karahanli Devleti - Tarih Portali"
+        title="Karahanlı Devleti - Tarih Portalı"
       />
 
       <NavigationCards

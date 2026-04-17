@@ -16,16 +16,16 @@ import { Menu, X, ChevronDown, Map, BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const stateLinks = [
-  { href: "/asya-hun", label: "Asya Hun Devleti", period: "MO 220 - MS 216" },
+  { href: "/asya-hun", label: "Asya Hun Devleti", period: "MÖ 220 - MS 216" },
   { href: "/avrupa-hun", label: "Avrupa Hun Devleti", period: "375 - 469" },
-  { href: "/gokturk", label: "Gokturk Devleti", period: "552 - 745" },
+  { href: "/gokturk", label: "Göktürk Devleti", period: "552 - 745" },
   { href: "/uygur", label: "Uygur Devleti", period: "744 - 840" },
-  { href: "/karahanli", label: "Karahanli Devleti", period: "840 - 1212" },
+  { href: "/karahanli", label: "Karahanlı Devleti", period: "840 - 1212" },
   { href: "/gazneli", label: "Gazneli Devleti", period: "963 - 1187" },
-  { href: "/buyuk-selcuklu", label: "Buyuk Selcuklu", period: "1037 - 1157" },
+  { href: "/buyuk-selcuklu", label: "Büyük Selçuklu", period: "1037 - 1157" },
   {
     href: "/anadolu-selcuklu",
-    label: "Anadolu Selcuklu",
+    label: "Anadolu Selçuklu",
     period: "1077 - 1308",
   },
 ];
@@ -46,10 +46,10 @@ export function Navigation() {
             </div>
             <div className="hidden sm:block">
               <span className="font-serif font-semibold text-lg text-foreground">
-                Tarih Portali
+                Tarih Portalı
               </span>
               <p className="text-xs text-muted-foreground">
-                Turk Devletleri ve Goc Yollari
+                Türk Devletleri ve Göç Yolları
               </p>
             </div>
           </Link>
@@ -69,12 +69,12 @@ export function Navigation() {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="gap-1">
                   <BookOpen className="w-4 h-4" />
-                  Turk Devletleri
+                  Türk Devletleri
                   <ChevronDown className="w-4 h-4" />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="center" className="w-64">
-                <DropdownMenuLabel>Turk Devletleri</DropdownMenuLabel>
+                <DropdownMenuLabel>Türk Devletleri</DropdownMenuLabel>
                 <DropdownMenuSeparator />
                 {stateLinks.map((link) => (
                   <DropdownMenuItem key={link.href} asChild>
@@ -99,7 +99,7 @@ export function Navigation() {
                 className="gap-1"
               >
                 <Map className="w-4 h-4" />
-                Goc Yollari
+                Göç Yolları
               </Button>
             </Link>
           </nav>
@@ -134,7 +134,7 @@ export function Navigation() {
 
               <div className="py-2">
                 <p className="px-4 text-sm font-medium text-muted-foreground mb-2">
-                  Turk Devletleri
+                  Türk Devletleri
                 </p>
                 {stateLinks.map((link) => (
                   <Link
@@ -164,7 +164,7 @@ export function Navigation() {
                   className="w-full justify-start gap-2"
                 >
                   <Map className="w-4 h-4" />
-                  Goc Yollari
+                  Göç Yolları
                 </Button>
               </Link>
             </div>

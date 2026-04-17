@@ -17,74 +17,74 @@ import {
 const migrationRoutes = [
   {
     id: "kavimler-gocu",
-    title: "Kavimler Gocu",
+    title: "Kavimler Göçü",
     period: "375 - 568",
     description:
-      "Hunlarin baskısıyla baslayan ve Avrupa'nin etnik yapisini degistiren buyuk goc dalgasi.",
+      "Hunların baskısıyla başlayan ve Avrupa'nın etnik yapısını değiştiren büyük göç dalgası.",
     route: "Orta Asya → Karadeniz kuzeyi → Avrupa",
     details: [
-      "375 yilinda Balamir onderligi altinda basladi",
+      "375 yılında Balamir önderliği altında başladı",
       "Got, Vandal, Frank gibi kavimleri itti",
-      "Bati Roma Imparatorlugu'nun cokuşunu hizlandirdi",
-      "Avrupa'nin bugunks etnik yapisinin temelini atti",
+      "Batı Roma İmparatorluğu'nun çöküşünü hızlandırdı",
+      "Avrupa'nın bugünkü etnik yapısının temelini attı",
     ],
     color: "bg-red-500",
   },
   {
     id: "oguz-gocu",
-    title: "Oguz Gocu",
-    period: "9. - 11. yuzyil",
+    title: "Oğuz Göçü",
+    period: "9. - 11. yüzyıl",
     description:
-      "Oguz Turklerinin Orta Asya'dan Iran ve Anadolu'ya dogru gerçeklestirdigi gocler.",
-    route: "Seyhun nehri → Horasan → Iran → Anadolu",
+      "Oğuz Türklerinin Orta Asya'dan İran ve Anadolu'ya doğru gerçekleştirdiği göçler.",
+    route: "Seyhun nehri → Horasan → İran → Anadolu",
     details: [
-      "Oguzlar, Selcuklu hanedeninin mensup oldugu boydan gelir",
-      "10. yuzyilda Islam'i kabul ettiler",
-      "Gazneli ve Selcuklu devletlerinin kurulmasina yol acti",
-      "Anadolu'nun Turklesmesinin temeli atildi",
+      "Oğuzlar, Selçuklu hanedanının mensup olduğu boydan gelir",
+      "10. yüzyılda İslâm'ı kabul ettiler",
+      "Gazneli ve Selçuklu devletlerinin kurulmasına yol açtı",
+      "Anadolu'nun Türkleşmesinin temeli atıldı",
     ],
     color: "bg-amber-500",
   },
   {
     id: "malazgirt-sonrasi",
-    title: "Malazgirt Sonrasi Gocler",
+    title: "Malazgirt Sonrası Göçler",
     period: "1071 - 1200",
     description:
-      "Malazgirt Zaferi sonrası Anadolu'ya yoğun Turk gocleri baslamiştır.",
-    route: "Iran → Dogu Anadolu → Ic Anadolu → Bati Anadolu",
+      "Malazgirt Zaferi sonrası Anadolu'ya yoğun Türk göçleri başlamıştır.",
+    route: "İran → Doğu Anadolu → İç Anadolu → Batı Anadolu",
     details: [
-      "1071 Malazgirt Zaferi Anadolu'nun kapilarini acti",
-      "Turk boylarının kitlesel gocleri basladi",
-      "Koylere, kasabalara ve sehirlere yerlesim",
-      "Anadolu'nun kalici olarak Turk yurdu haline gelmesi",
+      "1071 Malazgirt Zaferi Anadolu'nun kapılarını açtı",
+      "Türk boylarının kitlesel göçleri başladı",
+      "Köylere, kasabalara ve şehirlere yerleşim",
+      "Anadolu'nun kalıcı olarak Türk yurdu haline gelmesi",
     ],
     color: "bg-emerald-500",
   },
   {
     id: "mogol-baskisi",
-    title: "Mogol Baskisi Sonrasi",
+    title: "Moğol Baskısı Sonrası",
     period: "1220 - 1300",
     description:
-      "Mogol istilasi sonrası Orta Asya ve Iran'dan Anadolu'ya yogun gocler yasanmistir.",
-    route: "Harezm → Iran → Anadolu",
+      "Moğol istilası sonrası Orta Asya ve İran'dan Anadolu'ya yoğun göçler yaşanmıştır.",
+    route: "Harezm → İran → Anadolu",
     details: [
-      "Cengiz Han'in fetihleri buyuk goc dalgalarina yol acti",
-      "Alimler, sanatcilar ve tüccarlar Anadolu'ya siğındi",
-      "Anadolu Selcuklu kulturunun zenginlesmesi",
-      "Tasavvuf ve edebiyatin gelismesi",
+      "Cengiz Han'ın fetihleri büyük göç dalgalarına yol açtı",
+      "Âlimler, sanatçılar ve tüccarlar Anadolu'ya sığındı",
+      "Anadolu Selçuklu kültürünün zenginleşmesi",
+      "Tasavvuf ve edebiyatın gelişmesi",
     ],
     color: "bg-blue-500",
   },
 ];
 
 const timelineEvents = [
-  { year: "375", event: "Kavimler Gocu basladi", type: "migration" },
-  { year: "552", event: "Gokturk Devleti kuruldu", type: "state" },
-  { year: "840", event: "Uygur gocleri", type: "migration" },
-  { year: "1040", event: "Dandanakan Savasi", type: "battle" },
+  { year: "375", event: "Kavimler Göçü başladı", type: "migration" },
+  { year: "552", event: "Göktürk Devleti kuruldu", type: "state" },
+  { year: "840", event: "Uygur göçleri", type: "migration" },
+  { year: "1040", event: "Dandanakan Savaşı", type: "battle" },
   { year: "1071", event: "Malazgirt Zaferi", type: "battle" },
-  { year: "1077", event: "Anadolu Selcuklu kuruldu", type: "state" },
-  { year: "1243", event: "Kosedag Savasi", type: "battle" },
+  { year: "1077", event: "Anadolu Selçuklu kuruldu", type: "state" },
+  { year: "1243", event: "Kösedağ Savaşı", type: "battle" },
 ];
 
 export default function GocYollariPage() {
@@ -95,7 +95,7 @@ export default function GocYollariPage() {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Turk Goc Yollari - Tarih Portali",
+          title: "Türk Göç Yolları - Tarih Portalı",
           url: url,
         });
       } catch {
@@ -117,12 +117,12 @@ export default function GocYollariPage() {
               <Compass className="w-10 h-10 text-primary" />
             </div>
             <h1 className="font-serif text-3xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-              Turk Goc Yollari
+              Türk Göç Yolları
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 text-pretty">
-              Orta Asya&apos;nin engin bozkırlarindan Anadolu&apos;nun verimli
-              topraklarina uzanan bin yillik yolculuk. Turklerin dunya
-              uzerindeki izleri.
+              Orta Asya&apos;nın engin bozkırlarından Anadolu&apos;nun verimli
+              topraklarına uzanan bin yıllık yolculuk. Türklerin dünya
+              üzerindeki izleri.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
               <span className="flex items-center gap-2 px-4 py-2 bg-card rounded-full border border-border">
@@ -135,7 +135,7 @@ export default function GocYollariPage() {
               </span>
               <span className="flex items-center gap-2 px-4 py-2 bg-card rounded-full border border-border">
                 <Users className="w-4 h-4 text-primary" />
-                <span>Milyonlarca Turk</span>
+                <span>Milyonlarca Türk</span>
               </span>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function GocYollariPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-              Buyuk Goc Hareketleri
+              Büyük Göç Hareketleri
             </h2>
 
             {/* Route Selector */}
@@ -309,7 +309,7 @@ export default function GocYollariPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-              Goc ve Kuruluş Zaman Cizelgesi
+              Göç ve Kuruluş Zaman Çizelgesi
             </h2>
             <div className="relative">
               <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-accent to-primary/30" />
@@ -354,9 +354,9 @@ export default function GocYollariPage() {
                             }`}
                           >
                             {item.type === "migration"
-                              ? "Goc"
+                              ? "Göç"
                               : item.type === "battle"
-                                ? "Savas"
+                                ? "Savaş"
                                 : "Devlet"}
                           </span>
                         </CardContent>
@@ -379,7 +379,7 @@ export default function GocYollariPage() {
                 <div className="w-12 h-12 mx-auto mb-2 rounded-lg bg-primary/10 flex items-center justify-center">
                   <QrCode className="w-6 h-6 text-primary" />
                 </div>
-                <CardTitle className="font-serif">Bu Sayfayi Paylas</CardTitle>
+                <CardTitle className="font-serif">Bu Sayfayı Paylaş</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col items-center gap-4">
                 <div className="qr-container">
@@ -392,7 +392,7 @@ export default function GocYollariPage() {
                   />
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  QR kodu tarayarak bu sayfaya ulasabilirsiniz
+                  QR kodu tarayarak bu sayfaya ulaşabilirsiniz
                 </p>
                 <Button
                   variant="outline"
@@ -401,7 +401,7 @@ export default function GocYollariPage() {
                   className="gap-2"
                 >
                   <Share2 className="w-4 h-4" />
-                  Paylas
+                  Paylaş
                 </Button>
               </CardContent>
             </Card>
@@ -414,38 +414,38 @@ export default function GocYollariPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground mb-6">
-              Bin Yillik Yolculuk
+              Bin Yıllık Yolculuk
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Orta Asya&apos;nin bozkırlarindan baslayan bu yolculuk, Turklerı
-              dunyanin dort bir yanina tasimistir. Kavimler Gocu ile
-              Avrupa&apos;nin cehresini degistiren, Malazgirt ile Anadolu&apos;yu
-              ebedi yurt yapan bu gocler, dunya tarihinin en onemli
+              Orta Asya&apos;nın bozkırlarından başlayan bu yolculuk, Türkleri
+              dünyanın dört bir yanına taşımıştır. Kavimler Göçü ile
+              Avrupa&apos;nın çehresini değiştiren, Malazgirt ile Anadolu&apos;yu
+              ebedî yurt yapan bu göçler, dünya tarihinin en önemli
               hareketlerinden biridir.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <Card className="border-border bg-card">
                 <CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-primary">1000+</p>
-                  <p className="text-sm text-muted-foreground">Yillik Tarih</p>
+                  <p className="text-sm text-muted-foreground">Yıllık Tarih</p>
                 </CardContent>
               </Card>
               <Card className="border-border bg-card">
                 <CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-primary">3</p>
-                  <p className="text-sm text-muted-foreground">Kita</p>
+                  <p className="text-sm text-muted-foreground">Kıta</p>
                 </CardContent>
               </Card>
               <Card className="border-border bg-card">
                 <CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-primary">8</p>
-                  <p className="text-sm text-muted-foreground">Buyuk Devlet</p>
+                  <p className="text-sm text-muted-foreground">Büyük Devlet</p>
                 </CardContent>
               </Card>
               <Card className="border-border bg-card">
                 <CardContent className="p-4 text-center">
                   <p className="text-2xl font-bold text-primary">4</p>
-                  <p className="text-sm text-muted-foreground">Buyuk Goc</p>
+                  <p className="text-sm text-muted-foreground">Büyük Göç</p>
                 </CardContent>
               </Card>
             </div>

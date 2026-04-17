@@ -7,47 +7,47 @@ import { NavigationCards } from "@/components/navigation-cards";
 import { Sword, Users, Landmark, Scroll } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Asya Hun Devleti | Turk Devletleri ve Goc Yollari",
+  title: "Asya Hun Devleti | Türk Devletleri ve Göç Yolları",
   description:
-    "Tarihte bilinen ilk buyuk Turk devleti olan Asya Hun Devleti hakkinda detayli bilgi. MO 220 - MS 216 yillari arasinda Orta Asya'da hakimiyet kurmus buyuk bir imparatorluk.",
+    "Tarihte bilinen ilk büyük Türk devleti olan Asya Hun Devleti hakkında detaylı bilgi. MÖ 220 - MS 216 yılları arasında Orta Asya'da hâkimiyet kurmuş büyük bir imparatorluk.",
 };
 
 export default function AsyaHunPage() {
   const infoItems = [
     {
       icon: Sword,
-      title: "Onemli Savaslar",
+      title: "Önemli Savaşlar",
       items: [
-        "Cin Seddi'nin yapilmasina sebep olan savaslar",
-        "Mete Han'in Cin'i vergiye baglamasi",
-        "Bati'ya dogru fetih hareketleri",
+        "Çin Seddi'nin yapılmasına sebep olan savaşlar",
+        "Mete Han'ın Çin'i vergiye bağlaması",
+        "Batı'ya doğru fetih hareketleri",
       ],
     },
     {
       icon: Users,
-      title: "Onemli Kisiler",
+      title: "Önemli Kişiler",
       items: [
         "Teoman - Devletin kurucusu",
-        "Mete Han - En buyuk hukumdar",
-        "Ki-ok - Mete'nin oglu ve halef",
+        "Mete Han - En büyük hükümdar",
+        "Ki-ok - Mete'nin oğlu ve halef",
       ],
     },
     {
       icon: Landmark,
-      title: "Baskent ve Topraklar",
+      title: "Başkent ve Topraklar",
       items: [
-        "Otuken - Kutsal baskent",
-        "Mogolistan bozkırlari",
-        "Cin sinirlarindan Orta Asya'ya",
+        "Ötüken - Kutsal başkent",
+        "Moğolistan bozkırları",
+        "Çin sınırlarından Orta Asya'ya",
       ],
     },
     {
       icon: Scroll,
-      title: "Kulturel Miras",
+      title: "Kültürel Miras",
       items: [
-        "Onlu sistem (askeri teskilat)",
-        "Kurultay gelenegi",
-        "At ve ok kulturu",
+        "Onlu sistem (askerî teşkilat)",
+        "Kurultay geleneği",
+        "At ve ok kültürü",
       ],
     },
   ];
@@ -57,78 +57,78 @@ export default function AsyaHunPage() {
       <PageHeader
         emoji="🏹"
         title="Asya Hun Devleti"
-        subtitle="Tarihte bilinen ilk buyuk Turk devleti. Bozkırların ilk efendileri, Cin Seddi'nin yapilmasina sebep olan kudretli imparatorluk."
-        period="MO 220 - MS 216"
-        location="Orta Asya (Mogolistan)"
+        subtitle="Tarihte bilinen ilk büyük Türk devleti. Bozkırların ilk efendileri, Çin Seddi'nin yapılmasına sebep olan kudretli imparatorluk."
+        period="MÖ 220 - MS 216"
+        location="Orta Asya (Moğolistan)"
         founder="Teoman"
       />
 
-      <ContentSection title="Devletin Kurulusu ve Yukselisi">
+      <ContentSection title="Devletin Kuruluşu ve Yükselişi">
         <p>
-          Asya Hun Devleti, tarihte bilinen ilk buyuk Turk devleti olarak kabul
-          edilir. Milattan once 220 yilinda Teoman tarafindan kurulan devlet,
-          Orta Asya bozkırlarinda guclu bir imparatorluk haline gelmistir.
+          Asya Hun Devleti, tarihte bilinen ilk büyük Türk devleti olarak kabul
+          edilir. Milattan önce 220 yılında Teoman tarafından kurulan devlet,
+          Orta Asya bozkırlarında güçlü bir imparatorluk haline gelmiştir.
         </p>
         <p className="mt-4">
-          Hunlar, atlı gocebe bir yasam surduruyor ve savasci bir toplum
-          yapisina sahipti. Teoman doneminde devlet temelleri atilmis, ancak en
-          parlak donem oglu Mete Han zamaninda yasanmistir.
+          Hunlar, atlı göçebe bir yaşam sürüyor ve savaşçı bir toplum
+          yapısına sahipti. Teoman döneminde devlet temelleri atılmış, ancak en
+          parlak dönem oğlu Mete Han zamanında yaşanmıştır.
         </p>
       </ContentSection>
 
       <InfoSection
-        title="Asya Hun Devleti Hakkinda"
-        description="Hunlarin devlet yapisi, savas stratejileri ve kulturel ozellikleri"
+        title="Asya Hun Devleti Hakkında"
+        description="Hunların devlet yapısı, savaş stratejileri ve kültürel özellikleri"
         items={infoItems}
       />
 
-      <ContentSection title="Mete Han Donemi" className="bg-muted/30">
+      <ContentSection title="Mete Han Dönemi" className="bg-muted/30">
         <p>
-          Mete Han (MO 209-174), Turk tarihinin en onemli hukumdarlarindan
-          biridir. Babasini tahttan indirerek basna gecmis ve devleti en genis
-          sinirlarına ulastirmistir.
+          Mete Han (MÖ 209-174), Türk tarihinin en önemli hükümdarlarından
+          biridir. Babasını tahttan indirerek başa geçmiş ve devleti en geniş
+          sınırlarına ulaştırmıştır.
         </p>
         <p className="mt-4">
-          Mete Han&apos;in en onemli basarilarindan biri, Cin&apos;i vergiye
-          baglamasidir. Ayrica &quot;onlu sistem&quot; olarak bilinen askeri
-          teskilati kurmus ve bu sistem yuzyllarca Turk devletlerinde
-          kullanilmistir.
+          Mete Han&apos;ın en önemli başarılarından biri, Çin&apos;i vergiye
+          bağlamasıdır. Ayrıca &quot;onlu sistem&quot; olarak bilinen askerî
+          teşkilatı kurmuş ve bu sistem yüzyıllarca Türk devletlerinde
+          kullanılmıştır.
         </p>
         <p className="mt-4">
-          Bu sistem, orduyu onlar, yuzler, binler ve on binler seklinde
-          organize etmis ve disiplini ile esnekligi bir arada sunmustur.
+          Bu sistem, orduyu onlar, yüzler, binler ve on binler şeklinde
+          organize etmiş ve disiplini ile esnekliği bir arada sunmuştur.
         </p>
       </ContentSection>
 
-      <ContentSection title="Cin Seddi ve Hunlar">
+      <ContentSection title="Çin Seddi ve Hunlar">
         <p>
-          Cin Seddi&apos;nin yapilmasinin ana sebebi Hun akınlarindan korunmaktir.
-          Cin imparatorlugu, Hun atlılarinin akınlarına karsi bu devasa savunma
-          hattini insa etmistir.
+          Çin Seddi&apos;nin yapılmasının ana sebebi Hun akınlarından korunmaktır.
+          Çin İmparatorluğu, Hun atlılarının akınlarına karşı bu devasa savunma
+          hattını inşa etmiştir.
         </p>
         <p className="mt-4">
-          Ancak sed bile Hunlari durduramami ve Cin, uzun yillar Hunlara vergi
-          odemek zorunda kalmistir. Bu durum, Hunlarin gucunu ve etkisini acikca
-          gostermektedir.
+          Ancak sed bile Hunları durduramamış ve Çin, uzun yıllar Hunlara vergi
+          ödemek zorunda kalmıştır. Bu durum, Hunların gücünü ve etkisini açıkça
+          göstermektedir.
         </p>
       </ContentSection>
 
-      <ContentSection title="Yikilis ve Mirasi" className="bg-muted/30">
+      <ContentSection title="Yıkılış ve Mirası" className="bg-muted/30">
         <p>
-          Asya Hun Devleti, ic karisikliklar ve taht kavgalari sonucu
-          zayiflamaya baslamistir. MS 48 yilinda devlet ikiye bolunmus: Kuzey
-          Hunlari ve Guney Hunlari.
+          Asya Hun Devleti, iç karışıklıklar ve taht kavgaları sonucu
+          zayıflamaya başlamıştır. MS 48 yılında devlet ikiye bölünmüş: Kuzey
+          Hunları ve Güney Hunları.
         </p>
         <p className="mt-4">
-          Kuzey Hunlari batiya goc ederek Avrupa Hun Devleti&apos;nin temellerini
-          atmis, Guney Hunlari ise Cin&apos;e baglanmistir. Bu goc, Kavimler
-          Gocu&apos;nu tetikleyerek dunya tarihinin seyrini degistirmistir.
+          Kuzey Hunları batıya göç ederek Avrupa Hun Devleti&apos;nin temellerini
+          atmış, Güney Hunları ise Çin&apos;e bağlanmıştır. Bu göç, Kavimler
+          Göçü&apos;nü tetikleyerek dünya tarihinin seyrini değiştirmiştir.
         </p>
       </ContentSection>
 
       <QRCodeSection
         url="https://tarih-portali.vercel.app/asya-hun"
-        title="Asya Hun Devleti - Tarih Portali"
+        title="Asya Hun Devleti - Tarih Portalı"
       />
 
       <NavigationCards

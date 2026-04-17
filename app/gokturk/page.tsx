@@ -7,48 +7,48 @@ import { NavigationCards } from "@/components/navigation-cards";
 import { Sword, Users, Landmark, BookOpen } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Gokturk Devleti | Turk Devletleri ve Goc Yollari",
+  title: "Göktürk Devleti | Türk Devletleri ve Göç Yolları",
   description:
-    "'Turk' adini kullanan ilk devlet. Orhun Kitabeleri ile Turk tarihine en onemli yazili kaynaklari birakan Gokturk Devleti.",
+    "'Türk' adını kullanan ilk devlet. Orhun Kitabeleri ile Türk tarihine en önemli yazılı kaynakları bırakan Göktürk Devleti.",
 };
 
 export default function GokturkPage() {
   const infoItems = [
     {
       icon: Sword,
-      title: "Onemli Savaslar",
+      title: "Önemli Savaşlar",
       items: [
-        "Juan-Juan Devleti'ne karsi isyan (552)",
-        "Sasani ve Bizans'a karsi ittifaklar",
-        "Cin'e karsi mucadeleler",
+        "Juan-Juan Devleti'ne karşı isyan (552)",
+        "Sasani ve Bizans'a karşı ittifaklar",
+        "Çin'e karşı mücadeleler",
       ],
     },
     {
       icon: Users,
-      title: "Onemli Kisiler",
+      title: "Önemli Kişiler",
       items: [
-        "Bumin Kagan - Kurucu",
-        "Istemi Yabgu - Bati kanadının lideri",
-        "Bilge Kagan - Kitabelerin sahibi",
-        "Kultgin - Buyuk komutan",
+        "Bumin Kağan - Kurucu",
+        "İstemi Yabgu - Batı kanadının lideri",
+        "Bilge Kağan - Kitabelerin sahibi",
+        "Kül Tigin - Büyük komutan",
       ],
     },
     {
       icon: Landmark,
-      title: "Baskent ve Topraklar",
+      title: "Başkent ve Topraklar",
       items: [
-        "Otuken - Kutsal baskent",
-        "Mancurya'dan Karadeniz'e",
+        "Ötüken - Kutsal başkent",
+        "Mançurya'dan Karadeniz'e",
         "Sibirya'dan Tibet'e",
       ],
     },
     {
       icon: BookOpen,
-      title: "Yazili Miras",
+      title: "Yazılı Miras",
       items: [
-        "Orhun Kitabeleri (8. yuzyil)",
-        "Gokturk alfabesi",
-        "Turk adının ilk yazili kullanimu",
+        "Orhun Kitabeleri (8. yüzyıl)",
+        "Göktürk alfabesi",
+        "Türk adının ilk yazılı kullanımı",
       ],
     },
   ];
@@ -57,82 +57,82 @@ export default function GokturkPage() {
     <div>
       <PageHeader
         emoji="🐺"
-        title="Gokturk Devleti"
-        subtitle="'Turk' adini resmren kullanan ilk devlet. Orhun Kitabeleri ile Turk milletine kalan en degerli yazili miras."
+        title="Göktürk Devleti"
+        subtitle="'Türk' adını resmen kullanan ilk devlet. Orhun Kitabeleri ile Türk milletine kalan en değerli yazılı miras."
         period="552 - 745"
         location="Orta Asya"
-        founder="Bumin Kagan"
+        founder="Bumin Kağan"
       />
 
-      <ContentSection title="Devletin Kurulusu">
+      <ContentSection title="Devletin Kuruluşu">
         <p>
-          Gokturk Devleti, 552 yilinda Bumin Kagan tarafindan kurulmustur.
-          Gokturkler, Juan-Juan (Avar) hakimiyeti altinda demirci olarak
-          calisiyorlardi. Bumin Kagan onderligi altinda isyan ederek
-          bagimsizliklarini kazandilar.
+          Göktürk Devleti, 552 yılında Bumin Kağan tarafından kurulmuştur.
+          Göktürkler, Juan-Juan (Avar) hâkimiyeti altında demirci olarak
+          çalışıyorlardı. Bumin Kağan önderliği altında isyan ederek
+          bağımsızlıklarını kazandılar.
         </p>
         <p className="mt-4">
-          &quot;Turk&quot; adini resmi olarak kullanan ilk devlet olan
-          Gokturkler, kisa surede Orta Asya&apos;nin en buyuk gucu haline
-          gelmistir. Devlet, Mancurya&apos;dan Karadeniz&apos;e kadar uzanan
-          genis topraklara hakim olmustur.
+          &quot;Türk&quot; adını resmî olarak kullanan ilk devlet olan
+          Göktürkler, kısa sürede Orta Asya&apos;nın en büyük gücü haline
+          gelmiştir. Devlet, Mançurya&apos;dan Karadeniz&apos;e kadar uzanan
+          geniş topraklara hâkim olmuştur.
         </p>
       </ContentSection>
 
       <InfoSection
-        title="Gokturk Devleti Hakkinda"
-        description="Turk tarihinin en onemli devletlerinden birinin ozellikleri"
+        title="Göktürk Devleti Hakkında"
+        description="Türk tarihinin en önemli devletlerinden birinin özellikleri"
         items={infoItems}
       />
 
-      <ContentSection title="Dogu ve Bati Gokturkler" className="bg-muted/30">
+      <ContentSection title="Doğu ve Batı Göktürkler" className="bg-muted/30">
         <p>
-          Gokturk Devleti, kurulus asamasindan itibaren iki kanattan olusuyordu.
-          Bumin Kagan dogu kanadinın, kardesi Istemi Yabgu ise bati kanadinin
-          basinda bulunuyordu.
+          Göktürk Devleti, kuruluş aşamasından itibaren iki kanattan oluşuyordu.
+          Bumin Kağan doğu kanadının, kardeşi İstemi Yabgu ise batı kanadının
+          başında bulunuyordu.
         </p>
         <p className="mt-4">
-          582 yilinda devlet resmen ikiye bolunmustur. Dogu Gokturkler Cin ile
-          mucadele ederken, Bati Gokturkler Sasani ve Bizans ile iliskiler
-          kurmustur. Ipek Yolu ticareti uzerinde onemli bir kontrol saglanmistir.
+          582 yılında devlet resmen ikiye bölünmüştür. Doğu Göktürkler Çin ile
+          mücadele ederken, Batı Göktürkler Sasani ve Bizans ile ilişkiler
+          kurmuştur. İpek Yolu ticareti üzerinde önemli bir kontrol sağlanmıştır.
         </p>
       </ContentSection>
 
-      <ContentSection title="Orhun Kitabeleri - Turkce'nin Ilk Aniti">
+      <ContentSection title="Orhun Kitabeleri - Türkçenin İlk Anıtı">
         <p>
-          Orhun Kitabeleri, Turk tarihinin en onemli yazili kaynaklaridir.
-          8. yuzyilda dikilen bu kitabeler, Bilge Kagan, Kultgin ve Tonyukuk
-          adina yazilmistir.
+          Orhun Kitabeleri, Türk tarihinin en önemli yazılı kaynaklarıdır.
+          8. yüzyılda dikilen bu kitabeler, Bilge Kağan, Kül Tigin ve Tonyukuk
+          adına yazılmıştır.
         </p>
         <p className="mt-4">
-          Kitabeler, Gokturk alfabesiyle yazilmis olup Turk milletine hitap
-          etmektedir. &quot;Turk milleti, yokolacaktın. Turk milleti, titre ve
-          kendine don!&quot; gibi ifadeler, milli bilincin ilk yazili
-          orneklerini olusturmaktadir.
+          Kitabeler, Göktürk alfabesiyle yazılmış olup Türk milletine hitap
+          etmektedir. &quot;Türk milleti, yok olacaktın. Türk milleti, titre ve
+          kendine dön!&quot; gibi ifadeler, millî bilincin ilk yazılı
+          örneklerini oluşturmaktadır.
         </p>
         <p className="mt-4">
-          Bu kitabeler, Turklerin devlet anlayisini, savas stratejilerini ve
-          toplumsal degerlerini gunumuze ulastiran essiz belgelerdir.
+          Bu kitabeler, Türklerin devlet anlayışını, savaş stratejilerini ve
+          toplumsal değerlerini günümüze ulaştıran eşsiz belgelerdir.
         </p>
       </ContentSection>
 
-      <ContentSection title="II. Gokturk (Kutluk) Devleti" className="bg-muted/30">
+      <ContentSection title="II. Göktürk (Kutluk) Devleti" className="bg-muted/30">
         <p>
-          630 yilinda Cin hakimiyetine giren Gokturkler, 682 yilinda Kutluk
-          Kagan onderligi altinda yeniden bagimsizlik kazanmistir. Bu donem
-          &quot;II. Gokturk&quot; veya &quot;Kutluk Devleti&quot; olarak
-          adlandirilir.
+          630 yılında Çin hâkimiyetine giren Göktürkler, 682 yılında Kutluk
+          Kağan önderliği altında yeniden bağımsızlık kazanmıştır. Bu dönem
+          &quot;II. Göktürk&quot; veya &quot;Kutluk Devleti&quot; olarak
+          adlandırılır.
         </p>
         <p className="mt-4">
-          Bilge Kagan ve kardesi Kultgin doneminde devlet yeniden guclu bir
-          konuma ulastmistir. Ancak ic karisikliklar sonucu 745 yilinda
-          Uygurlara yenilerek tarih sahnesinden cekilmistir.
+          Bilge Kağan ve kardeşi Kül Tigin döneminde devlet yeniden güçlü bir
+          konuma ulaşmıştır. Ancak iç karışıklıklar sonucu 745 yılında
+          Uygurlara yenilerek tarih sahnesinden çekilmiştir.
         </p>
       </ContentSection>
 
       <QRCodeSection
         url="https://tarih-portali.vercel.app/gokturk"
-        title="Gokturk Devleti - Tarih Portali"
+        title="Göktürk Devleti - Tarih Portalı"
       />
 
       <NavigationCards

@@ -7,48 +7,48 @@ import { NavigationCards } from "@/components/navigation-cards";
 import { Sword, Users, Landmark, GraduationCap } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Buyuk Selcuklu Devleti | Turk Devletleri ve Goc Yollari",
+  title: "Büyük Selçuklu Devleti | Türk Devletleri ve Göç Yolları",
   description:
-    "1071 Malazgirt Zaferi ile Anadolu'nun kapilarini Turklere acan Buyuk Selcuklu Devleti. Tarihin akisini degistiren buyuk imparatorluk.",
+    "1071 Malazgirt Zaferi ile Anadolu'nun kapılarını Türklere açan Büyük Selçuklu Devleti. Tarihin akışını değiştiren büyük imparatorluk.",
 };
 
 export default function BuyukSelcukluPage() {
   const infoItems = [
     {
       icon: Sword,
-      title: "Onemli Savaslar",
+      title: "Önemli Savaşlar",
       items: [
-        "Dandanakan Savasi (1040) - Bagimsizlik",
-        "Pasinler Savasi (1048) - Bizans'a ilk zafer",
-        "Malazgirt Meydan Muharbesi (1071)",
+        "Dandanakan Savaşı (1040) - Bağımsızlık",
+        "Pasinler Savaşı (1048) - Bizans'a ilk zafer",
+        "Malazgirt Meydan Muharebesi (1071)",
       ],
     },
     {
       icon: Users,
-      title: "Onemli Kisiler",
+      title: "Önemli Kişiler",
       items: [
-        "Tugrul Bey - Kurucu",
-        "Alparslan - Malazgirt Kahramani",
-        "Meliksah - En parlak donem",
-        "Nizamulmulk - Buyuk vezir",
+        "Tuğrul Bey - Kurucu",
+        "Alparslan - Malazgirt Kahramanı",
+        "Melikşah - En parlak dönem",
+        "Nizâmülmülk - Büyük vezir",
       ],
     },
     {
       icon: Landmark,
-      title: "Baskentler",
+      title: "Başkentler",
       items: [
-        "Nisabur - Ilk baskent",
-        "Rey - Tugrul Bey donemi",
-        "Isfahan - Meliksah donemi",
+        "Nişabur - İlk başkent",
+        "Rey - Tuğrul Bey dönemi",
+        "İsfahan - Melikşah dönemi",
       ],
     },
     {
       icon: GraduationCap,
-      title: "Egitim ve Kultur",
+      title: "Eğitim ve Kültür",
       items: [
         "Nizamiye Medreseleri",
-        "Siyasetname - Nizamulmulk",
-        "Islam dunysinin ilim merkezi",
+        "Siyasetname - Nizâmülmülk",
+        "İslâm dünyasının ilim merkezi",
       ],
     },
   ];
@@ -57,95 +57,95 @@ export default function BuyukSelcukluPage() {
     <div>
       <PageHeader
         emoji="🦅"
-        title="Buyuk Selcuklu Devleti"
-        subtitle="1071 Malazgirt Zaferi ile Anadolu'nun kapilarini Turklere acan, tarihin akisini degistiren buyuk imparatorluk."
+        title="Büyük Selçuklu Devleti"
+        subtitle="1071 Malazgirt Zaferi ile Anadolu'nun kapılarını Türklere açan, tarihin akışını değiştiren büyük imparatorluk."
         period="1037 - 1157"
-        location="Iran - Anadolu - Suriye"
-        founder="Tugrul ve Cagri Beyler"
+        location="İran - Anadolu - Suriye"
+        founder="Tuğrul ve Çağrı Beyler"
       />
 
-      <ContentSection title="Oguaz Boylarindan Cihan Hakimiyetine">
+      <ContentSection title="Oğuz Boylarından Cihan Hâkimiyetine">
         <p>
-          Selcuklular, Oguz Turkerinin Kinik boyundan gelmektedir. 10.
-          yuzyilda Islam&apos;i kabul eden Selcuk Bey&apos;in torunlari, buyuk
-          bir imparatorluk kurmustur.
+          Selçuklular, Oğuz Türklerinin Kınık boyundan gelmektedir. 10.
+          yüzyılda İslâm&apos;ı kabul eden Selçuk Bey&apos;in torunları, büyük
+          bir imparatorluk kurmuştur.
         </p>
         <p className="mt-4">
-          1040 yılındaki Dandanakan Savasi, Selcuklularin bagimsiz bir
-          devlet olarak tarih sahnesine cikisini simgeler. Gaznelilere
-          karsi kazanilan bu zafer, Selcuklulara Horasan&apos;in kapilarini
-          acmistir.
+          1040 yılındaki Dandanakan Savaşı, Selçukluların bağımsız bir
+          devlet olarak tarih sahnesine çıkışını simgeler. Gaznelilere
+          karşı kazanılan bu zafer, Selçuklulara Horasan&apos;ın kapılarını
+          açmıştır.
         </p>
       </ContentSection>
 
       <InfoSection
-        title="Buyuk Selcuklu Devleti Hakkinda"
-        description="Turk-Islam dunysinin en guclu devletlerinden birinin ozellikleri"
+        title="Büyük Selçuklu Devleti Hakkında"
+        description="Türk-İslâm dünyasının en güçlü devletlerinden birinin özellikleri"
         items={infoItems}
       />
 
       <ContentSection
-        title="Malazgirt - Tarihin Donüm Noktasi"
+        title="Malazgirt - Tarihin Dönüm Noktası"
         className="bg-muted/30"
       >
         <p>
-          26 Agustos 1071 tarihinde gerceklesen Malazgirt Meydan Muharbesi,
-          dunya tarihinin en onemli savaslarindan biridir. Sultan Alparslan
-          komutasindaki Selcuklu ordusu, Bizans Imparatoru Romanos
-          Diogenes&apos;in ordusunu agir bir yenilgiye ugratmistir.
+          26 Ağustos 1071 tarihinde gerçekleşen Malazgirt Meydan Muharebesi,
+          dünya tarihinin en önemli savaşlarından biridir. Sultan Alparslan
+          komutasındaki Selçuklu ordusu, Bizans İmparatoru Romanos
+          Diogenes&apos;in ordusunu ağır bir yenilgiye uğratmıştır.
         </p>
         <p className="mt-4">
-          Bu zafer, Anadolu&apos;nun kapilarini Turklere acmis ve Turkiye
-          tarihinin basllangici olmustur. Bizans&apos;in askeri gucu kırılmis
-          ve Anadolu&apos;ya Turk gocleri hizlanmistir.
+          Bu zafer, Anadolu&apos;nun kapılarını Türklere açmış ve Türkiye
+          tarihinin başlangıcı olmuştur. Bizans&apos;ın askerî gücü kırılmış
+          ve Anadolu&apos;ya Türk göçleri hızlanmıştır.
         </p>
         <p className="mt-4">
-          Alparslan, savasdan once askerlerine soyledigi meshur sozlerle
-          tarihe gecmistir: &quot;Ben ya sehit ya gazi olacagim. Kim
-          isterse donebilir, burada sultan yoktur, ben de sizin gibi bir
+          Alparslan, savaştan önce askerlerine söylediği meşhur sözlerle
+          tarihe geçmiştir: &quot;Ben ya şehit ya gazi olacağım. Kim
+          isterse dönebilir, burada sultan yoktur, ben de sizin gibi bir
           askerim.&quot;
         </p>
       </ContentSection>
 
-      <ContentSection title="Meliksah ve Altin Cag">
+      <ContentSection title="Melikşah ve Altın Çağ">
         <p>
-          Meliksah donemi (1072-1092), Buyuk Selcuklu Devleti&apos;nin en
-          parlak dönemidir. Devlet sinirları Orta Asya&apos;dan Akdeniz&apos;e,
-          Kafkasya&apos;dan Yemen&apos;e kadar genislemistir.
+          Melikşah dönemi (1072-1092), Büyük Selçuklu Devleti&apos;nin en
+          parlak dönemidir. Devlet sınırları Orta Asya&apos;dan Akdeniz&apos;e,
+          Kafkasya&apos;dan Yemen&apos;e kadar genişlemiştir.
         </p>
         <p className="mt-4">
-          Bu donemde buyuk vezir Nizamulmulk&apos;un kurduğu Nizamiye
-          Medreseleri, Islam dunysinin en onemli egitim kurumlari haline
-          gelmistir. Bagdat, Isfahan ve Nisabur&apos;daki bu medreseler,
-          yuzyillar boyunca ilim merkezi olmaya devam etmistir.
+          Bu dönemde büyük vezir Nizâmülmülk&apos;ün kurduğu Nizamiye
+          Medreseleri, İslâm dünyasının en önemli eğitim kurumları haline
+          gelmiştir. Bağdat, İsfahan ve Nişabur&apos;daki bu medreseler,
+          yüzyıllar boyunca ilim merkezi olmaya devam etmiştir.
         </p>
         <p className="mt-4">
-          Nizamulmulk&apos;un yazdigi &quot;Siyasetname&quot; adli eser, devlet
-          yonetimi konusunda klasik bir kaynak olmustur.
+          Nizâmülmülk&apos;ün yazdığı &quot;Siyasetname&quot; adlı eser, devlet
+          yönetimi konusunda klasik bir kaynak olmuştur.
         </p>
       </ContentSection>
 
-      <ContentSection title="Dagilis ve Miras" className="bg-muted/30">
+      <ContentSection title="Dağılış ve Miras" className="bg-muted/30">
         <p>
-          1092 yilinda Meliksah&apos;in ve Nizamulmulk&apos;un ölümunden sonra
-          devlet hizla zayıflamistir. Taht kavgalari ve Batini
-          suikastlari, merkezi otoriteyi sarsmistir.
+          1092 yılında Melikşah&apos;ın ve Nizâmülmülk&apos;ün ölümünden sonra
+          devlet hızla zayıflamıştır. Taht kavgaları ve Bâtınî
+          suikastları, merkezî otoriteyi sarsmıştır.
         </p>
         <p className="mt-4">
-          Devlet, ceslitli atabeylikler ve yerel hanedanlara bolunmustur.
-          1157 yilinda Sultan Sancar&apos;in ölümüyle Buyuk Selcuklu Devleti
-          resmen sona ermistir.
+          Devlet, çeşitli atabeylikler ve yerel hanedanlara bölünmüştür.
+          1157 yılında Sultan Sencer&apos;in ölümüyle Büyük Selçuklu Devleti
+          resmen sona ermiştir.
         </p>
         <p className="mt-4">
-          Ancak Selcuklu mirasi, Anadolu Selcuklu Devleti, Harezmsahlar ve
-          diger Turk devletleri tarafindan sürdürülmüstür. Malazgirt
-          Zaferi&apos;nin actiği yolda Anadolu, ebedi Turk yurdu olmustur.
+          Ancak Selçuklu mirası, Anadolu Selçuklu Devleti, Harezmşahlar ve
+          diğer Türk devletleri tarafından sürdürülmüştür. Malazgirt
+          Zaferi&apos;nin açtığı yolda Anadolu, ebedî Türk yurdu olmuştur.
         </p>
       </ContentSection>
 
       <QRCodeSection
         url="https://tarih-portali.vercel.app/buyuk-selcuklu"
-        title="Buyuk Selcuklu Devleti - Tarih Portali"
+        title="Büyük Selçuklu Devleti - Tarih Portalı"
       />
 
       <NavigationCards
@@ -156,7 +156,7 @@ export default function BuyukSelcukluPage() {
         }}
         next={{
           href: "/anadolu-selcuklu",
-          title: "Anadolu Selcuklu Devleti",
+          title: "Anadolu Selçuklu Devleti",
           period: "1077 - 1308",
         }}
       />

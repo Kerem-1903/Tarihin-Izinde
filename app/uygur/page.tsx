@@ -7,47 +7,47 @@ import { NavigationCards } from "@/components/navigation-cards";
 import { Building, Users, Landmark, Printer } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Uygur Devleti | Turk Devletleri ve Goc Yollari",
+  title: "Uygur Devleti | Türk Devletleri ve Göç Yolları",
   description:
-    "Yerlsik hayata gecen ilk Turk devleti. Matbaayi Avrupa'dan once kullanan, ticaret ve kulturde one cikan Uygur Devleti.",
+    "Yerleşik hayata geçen ilk Türk devleti. Yazılı kültürü geliştiren, ticaret ve kültürde öne çıkan Uygur Devleti.",
 };
 
 export default function UygurPage() {
   const infoItems = [
     {
       icon: Building,
-      title: "Sehirlesme",
+      title: "Şehirleşme",
       items: [
-        "Karabalgasun - Baskent",
-        "Beshbalik, Turfan sehirleri",
-        "Tarim Havzasi'nda kentlesme",
+        "Karabalgasun - Başkent",
+        "Beşbalık, Turfan şehirleri",
+        "Tarım Havzası'nda kentleşme",
       ],
     },
     {
       icon: Users,
-      title: "Onemli Kisiler",
+      title: "Önemli Kişiler",
       items: [
-        "Kutluk Bilge Kul Kagan - Kurucu",
-        "Bogu Kagan - Maniheizm'i kabul etti",
-        "Boku Kagan - Cin'e yardim etti",
+        "Kutluk Bilge Kül Kağan - Kurucu",
+        "Böğü Kağan - Maniheizm'i kabul etti",
+        "Bökü Kağan - Çin'e yardım etti",
       ],
     },
     {
       icon: Landmark,
-      title: "Din ve Inanc",
+      title: "Din ve İnanç",
       items: [
-        "Maniheizm - Resmi din (762)",
-        "Budizm'in yayilmasi",
-        "Nesturi Hristiyanlík",
+        "Maniheizm - Resmî din (762)",
+        "Budizm'in yayılması",
+        "Nesturi Hristiyanlık",
       ],
     },
     {
       icon: Printer,
-      title: "Kultur ve Teknoloji",
+      title: "Kültür ve Teknoloji",
       items: [
-        "Matbaa kullanimi (Avrupa'dan once)",
+        "Yazılı kültürü geliştirdiler",
         "Uygur alfabesi",
-        "Kagit ve kitap uretimi",
+        "Kâğıt ve kitap üretimi",
       ],
     },
   ];
@@ -57,95 +57,95 @@ export default function UygurPage() {
       <PageHeader
         emoji="📜"
         title="Uygur Devleti"
-        subtitle="Yerlsik hayata gecen ilk Turk devleti. Matbaayi Avrupa'dan once kullanan, kultur ve ticarette zirveye ulasan medeniyet."
+        subtitle="Yerleşik hayata geçen ilk Türk devleti. Yazılı kültürü geliştiren, kültür ve ticarette zirveye ulaşan medeniyet."
         period="744 - 840"
-        location="Orta Asya (Mogolistan - Dogu Turkistan)"
-        founder="Kutluk Bilge Kul Kagan"
+        location="Orta Asya (Moğolistan - Doğu Türkistan)"
+        founder="Kutluk Bilge Kül Kağan"
       />
 
-      <ContentSection title="Gocebe Hayattan Yerlsik Medeniyete">
+      <ContentSection title="Göçebe Hayattan Yerleşik Medeniyete">
         <p>
-          Uygur Devleti, 744 yilında Kutluk Bilge Kul Kagan tarafindan
-          kurulmustur. Gokturklerin yikilisinin ardindan Orta Asya&apos;nin yeni
-          hakimi olan Uygurlar, Turk tarihinde onemli bir donusum gecirmistir.
+          Uygur Devleti, 744 yılında Kutluk Bilge Kül Kağan tarafından
+          kurulmuştur. Göktürklerin yıkılışının ardından Orta Asya&apos;nın yeni
+          hâkimi olan Uygurlar, Türk tarihinde önemli bir dönüşüm geçirmiştir.
         </p>
         <p className="mt-4">
-          Uygurlar, gocebe yasam tarzindan yerlsik hayata gecen ilk Turk
-          toplulugudur. Sehirler kurmus, tarim yapmis ve ticaretle
-          zenginlesmistir. Bu donusum, Turk kulturunun gelisiminde buyuk bir
-          donemecidir.
+          Uygurlar, göçebe yaşam tarzından yerleşik hayata geçen ilk Türk
+          topluluğudur. Şehirler kurmuş, tarım yapmış ve ticaretle
+          zenginleşmiştir. Bu dönüşüm, Türk kültürünün gelişiminde büyük bir
+          dönemeçtir.
         </p>
       </ContentSection>
 
       <InfoSection
-        title="Uygur Devleti Hakkinda"
-        description="Kulturel gelisim, din degisiklikleri ve teknolojik ilerlemeler"
+        title="Uygur Devleti Hakkında"
+        description="Kültürel gelişim, din değişiklikleri ve teknolojik ilerlemeler"
         items={infoItems}
       />
 
-      <ContentSection title="Maniheizm ve Din Degisikligi" className="bg-muted/30">
+      <ContentSection title="Maniheizm ve Din Değişikliği" className="bg-muted/30">
         <p>
-          762 yilinda Bogu Kagan, Maniheizm&apos;i resmi din olarak kabul etmistir.
-          Bu, Turk tarihinde onemli bir kirilma noktasidir cunku Turkler ilk
-          kez gocebe inanclarindan farkli bir dini benimsemistir.
+          762 yılında Böğü Kağan, Maniheizm&apos;i resmî din olarak kabul etmiştir.
+          Bu, Türk tarihinde önemli bir kırılma noktasıdır çünkü Türkler ilk
+          kez göçebe inançlarından farklı bir dini benimsemiştir.
         </p>
         <p className="mt-4">
-          Maniheizm&apos;in temel ilkeleri arasinda et yememek ve savaslardan
-          kacinmak vardi. Bu durum, savasci Turk karakteriyle celismis ve
-          devletin askeri gucunu olumsuz etkilemis olabilir.
+          Maniheizm&apos;in temel ilkeleri arasında et yememek ve savaşlardan
+          kaçınmak vardı. Bu durum, savaşçı Türk karakteriyle çelişmiş ve
+          devletin askerî gücünü olumsuz etkilemiş olabilir.
         </p>
         <p className="mt-4">
-          Ayni zamanda Budizm ve Nesturi Hristiyanlik da Uygurlar arasinda
-          yayilmistir. Bu dini cokkulturellesme, Uygur sanatina ve
-          edebiyatina zenginlik katmistir.
+          Aynı zamanda Budizm ve Nesturi Hristiyanlık da Uygurlar arasında
+          yayılmıştır. Bu dinî çokkültürlüleşme, Uygur sanatına ve
+          edebiyatına zenginlik katmıştır.
         </p>
       </ContentSection>
 
-      <ContentSection title="Matbaa ve Kulturel Miras">
+      <ContentSection title="Yazılı Kültür ve Miras">
         <p>
-          Uygurlar, matbaayi Avrupa&apos;dan yuzyillar once kullanmis bir
-          medeniyettir. Tahta kaliplarla basski teknigi kullanilarak kitaplar
-          cogaltilmis ve bilgi yayilmistir.
+          Uygurlar, yazılı kültürü geliştiren önemli bir
+          medeniyettir. Tahta kalıplarla baskı tekniği kullanılarak kitaplar
+          çoğaltılmış ve bilgi yayılmıştır.
         </p>
         <p className="mt-4">
-          Uygur alfabesi, Sogd alfabesinden turetilmis olup daha sonra
-          Mogollara ve Mancurlara gecmistir. Bu alfabe, Orta Asya&apos;nin ortak
-          yazı dili haline gelmistir.
+          Uygur alfabesi, Soğd alfabesinden türetilmiş olup daha sonra
+          Moğollara ve Mançurlara geçmiştir. Bu alfabe, Orta Asya&apos;nın ortak
+          yazı dili haline gelmiştir.
         </p>
         <p className="mt-4">
-          Uygurlar ayrica tercumanlik faaliyetleriyle de unludur. Budist ve
-          Maniheist metinleri Turkcey cevirmi, boylece zengin bir edebiyat
-          mirasi olusturmuslardir.
+          Uygurlar ayrıca tercümanlık faaliyetleriyle de ünlüdür. Budist ve
+          Maniheist metinleri Türkçeye çevirmiş, böylece zengin bir edebiyat
+          mirası oluşturmuşlardır.
         </p>
       </ContentSection>
 
-      <ContentSection title="Yikilis ve Goc" className="bg-muted/30">
+      <ContentSection title="Yıkılış ve Göç" className="bg-muted/30">
         <p>
-          840 yilinda Kirgizlar tarafindan yikilan Uygur Devleti, halkinin
-          buyuk bir bolumu guneye ve batiya goc etmistir. Turfan ve Kansu
-          bolgerlerinde yeni Uygur devletleri kurulmustur.
+          840 yılında Kırgızlar tarafından yıkılan Uygur Devleti, halkının
+          büyük bir bölümü güneye ve batıya göç etmiştir. Turfan ve Kansu
+          bölgelerinde yeni Uygur devletleri kurulmuştur.
         </p>
         <p className="mt-4">
-          Bu goc sonrasi kurulan devletler, Uygur kulturunu yuzyillar boyunca
-          yasatmistir. Uygur yazisi, edebiyati ve sanati, Mogol Imparatorlugu
-          doneminde bile etkisini surdurmustir.
+          Bu göç sonrası kurulan devletler, Uygur kültürünü yüzyıllar boyunca
+          yaşatmıştır. Uygur yazısı, edebiyatı ve sanatı, Moğol İmparatorluğu
+          döneminde bile etkisini sürdürmüştür.
         </p>
       </ContentSection>
 
       <QRCodeSection
         url="https://tarih-portali.vercel.app/uygur"
-        title="Uygur Devleti - Tarih Portali"
+        title="Uygur Devleti - Tarih Portalı"
       />
 
       <NavigationCards
         previous={{
           href: "/gokturk",
-          title: "Gokturk Devleti",
+          title: "Göktürk Devleti",
           period: "552 - 745",
         }}
         next={{
           href: "/karahanli",
-          title: "Karahanli Devleti",
+          title: "Karahanlı Devleti",
           period: "840 - 1212",
         }}
       />

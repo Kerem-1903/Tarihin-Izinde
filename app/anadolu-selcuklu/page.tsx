@@ -7,47 +7,47 @@ import { NavigationCards } from "@/components/navigation-cards";
 import { Sword, Users, Landmark, Palette } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Anadolu Selcuklu Devleti | Turk Devletleri ve Goc Yollari",
+  title: "Anadolu Selçuklu Devleti | Türk Devletleri ve Göç Yolları",
   description:
-    "Anadolu'da kurulan ilk Turk devleti. Konya merkezli, zengin mimari ve kulturel mirasi ile one cikan Turkiye Selcuklulari.",
+    "Anadolu'da kurulan ilk Türk devleti. Konya merkezli, zengin mimarî ve kültürel mirası ile öne çıkan Türkiye Selçukluları.",
 };
 
 export default function AnadoluSelcukluPage() {
   const infoItems = [
     {
       icon: Sword,
-      title: "Onemli Savaslar",
+      title: "Önemli Savaşlar",
       items: [
-        "Miryokefalon Savasi (1176) - Bizans'a kesin zafer",
-        "Yassicemen Savasi (1230) - Harezmsahlara zafer",
-        "Kosedag Savasi (1243) - Mogollara yenilgi",
+        "Miryokefalon Savaşı (1176) - Bizans'a kesin zafer",
+        "Yassıçemen Savaşı (1230) - Harezmşahlara zafer",
+        "Kösedağ Savaşı (1243) - Moğollara yenilgi",
       ],
     },
     {
       icon: Users,
-      title: "Onemli Kisiler",
+      title: "Önemli Kişiler",
       items: [
-        "Kutalmisoglu Suleyman Sah - Kurucu",
-        "I. Kılıc Arslan - Hacli savasları kahramani",
-        "I. Alaeddin Keykubat - En buyuk hukumdar",
+        "Kutalmışoğlu Süleyman Şah - Kurucu",
+        "I. Kılıç Arslan - Haçlı savaşları kahramanı",
+        "I. Alâeddin Keykubat - En büyük hükümdar",
       ],
     },
     {
       icon: Landmark,
-      title: "Baskentler",
+      title: "Başkentler",
       items: [
-        "Iznik - Ilk baskent",
-        "Konya - Uzun sureli baskent",
-        "Kayseri, Sivas - Onemli sehirler",
+        "İznik - İlk başkent",
+        "Konya - Uzun süreli başkent",
+        "Kayseri, Sivas - Önemli şehirler",
       ],
     },
     {
       icon: Palette,
-      title: "Mimari Miras",
+      title: "Mimarî Miras",
       items: [
         "Kervansaraylar (Sultanhanı, Ağzıkarahan)",
-        "Medreseler (Cifte Minareli, Gok Medrese)",
-        "Camiler ve Turbeler",
+        "Medreseler (Çifte Minareli, Gök Medrese)",
+        "Camiler ve Türbeler",
       ],
     },
   ];
@@ -56,120 +56,120 @@ export default function AnadoluSelcukluPage() {
     <div>
       <PageHeader
         emoji="🏛️"
-        title="Anadolu Selcuklu Devleti"
-        subtitle="Anadolu'da kurulan ilk Turk devleti. Konya'yi baskent yapan, zengin mimari ve kulturel miras birakan Turkiye Selcuklulari."
+        title="Anadolu Selçuklu Devleti"
+        subtitle="Anadolu'da kurulan ilk Türk devleti. Konya'yı başkent yapan, zengin mimarî ve kültürel miras bırakan Türkiye Selçukluları."
         period="1077 - 1308"
         location="Anadolu"
-        founder="Kutalmisoglu Suleyman Sah"
+        founder="Kutalmışoğlu Süleyman Şah"
       />
 
-      <ContentSection title="Anadolu'nun Turklesmesi">
+      <ContentSection title="Anadolu'nun Türkleşmesi">
         <p>
-          Malazgirt Zaferi&apos;nden sonra Anadolu&apos;ya akan Turk
-          boylari, bu topraklarda kalici yerlesmeler kurmaya baslamistir.
-          1077 yilinda Kutalmisoglu Suleyman Sah, Iznik&apos;i baskent yaparak
-          Anadolu Selcuklu Devleti&apos;ni kurmustur.
+          Malazgirt Zaferi&apos;nden sonra Anadolu&apos;ya akın eden Türk
+          boyları, bu topraklarda kalıcı yerleşmeler kurmaya başlamıştır.
+          1077 yılında Kutalmışoğlu Süleyman Şah, İznik&apos;i başkent yaparak
+          Anadolu Selçuklu Devleti&apos;ni kurmuştur.
         </p>
         <p className="mt-4">
-          Bu devlet, &quot;Turkiye&quot; adinin ilk kez kullanildigi siyasi
-          yapi olmustur. Anadolu, artik Turk yurdu olarak anilmaya
-          baslamistir. Devlet, yuzyillar boyunca Anadolu&apos;nun
-          Turklestirilmesinde merkezi rol oynamistur.
+          Bu devlet, &quot;Türkiye&quot; adının ilk kez kullanıldığı siyasî
+          yapı olmuştur. Anadolu, artık Türk yurdu olarak anılmaya
+          başlamıştır. Devlet, yüzyıllar boyunca Anadolu&apos;nun
+          Türkleştirilmesinde merkezî rol oynamıştır.
         </p>
       </ContentSection>
 
       <InfoSection
-        title="Anadolu Selcuklu Devleti Hakkinda"
-        description="Anadolu'da Turk-Islam medeniyetinin temelleri"
+        title="Anadolu Selçuklu Devleti Hakkında"
+        description="Anadolu'da Türk-İslâm medeniyetinin temelleri"
         items={infoItems}
       />
 
       <ContentSection
-        title="Hacli Seferleri ve Mucadele"
+        title="Haçlı Seferleri ve Mücadele"
         className="bg-muted/30"
       >
         <p>
-          1096 yilında baslayan Hacli Seferleri, Anadolu Selcuklu
-          Devleti&apos;ni dogrudan etkilemistir. I. Kılıc Arslan, ilk Hacli
-          ordularına karsi basarili savunma yapmis ve Hacliların ilerlemesini
-          yavaşlatmistir.
+          1096 yılında başlayan Haçlı Seferleri, Anadolu Selçuklu
+          Devleti&apos;ni doğrudan etkilemiştir. I. Kılıç Arslan, ilk Haçlı
+          ordularına karşı başarılı savunma yapmış ve Haçlıların ilerlemesini
+          yavaşlatmıştır.
         </p>
         <p className="mt-4">
-          Ancak baskent Iznik 1097&apos;de Haclilara kaybedilmis ve baskent
-          Konya&apos;ya tasınmıştır. Bu zorunlu goc, aslinda devletin
-          Anadolu&apos;nun ic kesimlerinde guclu bir sekilde yerlesimesini
-          saglamistir.
+          Ancak başkent İznik 1097&apos;de Haçlılara kaybedilmiş ve başkent
+          Konya&apos;ya taşınmıştır. Bu zorunlu göç, aslında devletin
+          Anadolu&apos;nun iç kesimlerinde güçlü bir şekilde yerleşmesini
+          sağlamıştır.
         </p>
         <p className="mt-4">
-          1176 yılındaki Miryokefalon Savasi, Bizans&apos;in Anadolu&apos;yu geri
-          alma umutlarini tamamen yok etmistir. Bu zafer, Anadolu&apos;nun
-          kesin olarak Turk yurdu oldugunu kanitlamistir.
+          1176 yılındaki Miryokefalon Savaşı, Bizans&apos;ın Anadolu&apos;yu geri
+          alma umutlarını tamamen yok etmiştir. Bu zafer, Anadolu&apos;nun
+          kesin olarak Türk yurdu olduğunu kanıtlamıştır.
         </p>
       </ContentSection>
 
-      <ContentSection title="I. Alaeddin Keykubat Donemi">
+      <ContentSection title="I. Alâeddin Keykubat Dönemi">
         <p>
-          I. Alaeddin Keykubat (1220-1237), Anadolu Selcuklu Devleti&apos;nin
-          en buyuk hukumdaridir. Onun doneminde devlet, siyasi, ekonomik
-          ve kulturel acindan zirveye ulastmistir.
+          I. Alâeddin Keykubat (1220-1237), Anadolu Selçuklu Devleti&apos;nin
+          en büyük hükümdarıdır. Onun döneminde devlet, siyasî, ekonomik
+          ve kültürel açıdan zirveye ulaşmıştır.
         </p>
         <p className="mt-4">
-          Akdeniz&apos;de Alanya fethedilmis ve Selcuklu donanmasi
-          kurulmustur. Karadeniz&apos;de Sinop ve Sugdak limanlari ele
-          gecirilmis, deniz ticareti canlandirılmıştir.
+          Akdeniz&apos;de Alanya fethedilmiş ve Selçuklu donanması
+          kurulmuştur. Karadeniz&apos;de Sinop ve Suğdak limanları ele
+          geçirilmiş, deniz ticareti canlandırılmıştır.
         </p>
         <p className="mt-4">
-          Bu donemde insaa edilen kervansaraylar, Anadolu&apos;yu onemli bir
-          ticaret merkezi haline getirmistir. Sultanhani ve Agzikarahan
-          gibi yapilar, bugun hala ayakta duran mimari saheserlerdir.
+          Bu dönemde inşa edilen kervansaraylar, Anadolu&apos;yu önemli bir
+          ticaret merkezi haline getirmiştir. Sultanhanı ve Ağzıkarahan
+          gibi yapılar, bugün hâlâ ayakta duran mimarî şaheserlerdir.
         </p>
       </ContentSection>
 
-      <ContentSection title="Mogol Istilasi ve Cokus" className="bg-muted/30">
+      <ContentSection title="Moğol İstilası ve Çöküş" className="bg-muted/30">
         <p>
-          1243 yılındaki Kosedag Savasi, Anadolu Selcuklu tarihinin en
-          buyuk felaketi olmustur. Mogollara karsi kaybedilen bu savas
-          sonucu devlet, Mogol hakimiyetine girmistir.
+          1243 yılındaki Kösedağ Savaşı, Anadolu Selçuklu tarihinin en
+          büyük felaketi olmuştur. Moğollara karşı kaybedilen bu savaş
+          sonucu devlet, Moğol hâkimiyetine girmiştir.
         </p>
         <p className="mt-4">
-          Bundan sonra Anadolu Selcuklulari, Mogollara bagli bir vasal
-          devlet olarak varligini surdurumustur. Merkezi otorite zayiflamis
-          ve Anadolu&apos;da beylikler donemi baslamistir.
+          Bundan sonra Anadolu Selçukluları, Moğollara bağlı bir vasal
+          devlet olarak varlığını sürdürmüştür. Merkezî otorite zayıflamış
+          ve Anadolu&apos;da beylikler dönemi başlamıştır.
         </p>
         <p className="mt-4">
-          1308 yilinda devlet resmen sona ermis, ancak Turk beylikleri
-          Selcuklu mirasini surdurumustur. Bu beyliklerden Osmanlilar,
-          dunya tarihinin en buyuk imparatorluklarindan birini kuracaktir.
+          1308 yılında devlet resmen sona ermiş, ancak Türk beylikleri
+          Selçuklu mirasını sürdürmüştür. Bu beyliklerden Osmanlılar,
+          dünya tarihinin en büyük imparatorluklarından birini kuracaktır.
         </p>
       </ContentSection>
 
-      <ContentSection title="Kulturel Miras">
+      <ContentSection title="Kültürel Miras">
         <p>
-          Anadolu Selcuklulari, benzersiz bir mimari miras birakmistir.
-          Kervansaraylar, medreseler, camiler ve turbeler, Selcuklu
-          sanatinin en guzel ornekleridi r.
+          Anadolu Selçukluları, benzersiz bir mimarî miras bırakmıştır.
+          Kervansaraylar, medreseler, camiler ve türbeler, Selçuklu
+          sanatının en güzel örnekleridir.
         </p>
         <p className="mt-4">
-          Konya&apos;daki Alaeddin Camii, Karatay Medresesi ve Ince Minareli
-          Medrese; Sivas&apos;taki Cifte Minareli Medrese ve Gok Medrese;
-          Kayseri&apos;deki Hunat Hatun Kulliyesi bu mirasi temsil etmektedir.
+          Konya&apos;daki Alâeddin Camii, Karatay Medresesi ve İnce Minareli
+          Medrese; Sivas&apos;taki Çifte Minareli Medrese ve Gök Medrese;
+          Kayseri&apos;deki Hunat Hatun Külliyesi bu mirası temsil etmektedir.
         </p>
         <p className="mt-4">
-          Ayrica Mevlana Celaleddin Rumi gibi buyuk dusunurler bu
-          donemde yasamis ve Anadolu&apos;yu tasavvufun merkezi haline
-          getirmistir.
+          Ayrıca Mevlânâ Celâleddin Rûmî gibi büyük düşünürler bu
+          dönemde yaşamış ve Anadolu&apos;yu tasavvufun merkezi haline
+          getirmiştir.
         </p>
       </ContentSection>
 
       <QRCodeSection
         url="https://tarih-portali.vercel.app/anadolu-selcuklu"
-        title="Anadolu Selcuklu Devleti - Tarih Portali"
+        title="Anadolu Selçuklu Devleti - Tarih Portalı"
       />
 
       <NavigationCards
         previous={{
           href: "/buyuk-selcuklu",
-          title: "Buyuk Selcuklu Devleti",
+          title: "Büyük Selçuklu Devleti",
           period: "1037 - 1157",
         }}
       />

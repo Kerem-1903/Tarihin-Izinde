@@ -13,17 +13,17 @@ export function Footer() {
                 </span>
               </div>
               <span className="font-serif font-semibold text-lg">
-                Tarih Portali
+                Tarih Portalı
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Orta Asya&apos;dan Anadolu&apos;ya uzanan Turk devletlerinin ve
-              goc yollarinin hikayesini kesfetmeye hazir misiniz?
+              Orta Asya&apos;dan Anadolu&apos;ya uzanan Türk devletlerinin ve
+              göç yollarının hikayesini keşfetmeye hazır mısınız?
             </p>
           </div>
 
           <div>
-            <h3 className="font-serif font-semibold mb-4">Turk Devletleri</h3>
+            <h3 className="font-serif font-semibold mb-4">Türk Devletleri</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
@@ -46,7 +46,7 @@ export function Footer() {
                   href="/gokturk"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Gokturk Devleti
+                  Göktürk Devleti
                 </Link>
               </li>
               <li>
@@ -62,7 +62,7 @@ export function Footer() {
 
           <div>
             <h3 className="font-serif font-semibold mb-4">
-              Daha Fazla Kefset
+              Daha Fazla Keşfet
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
@@ -70,7 +70,7 @@ export function Footer() {
                   href="/karahanli"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Karahanli Devleti
+                  Karahanlı Devleti
                 </Link>
               </li>
               <li>
@@ -86,7 +86,7 @@ export function Footer() {
                   href="/buyuk-selcuklu"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Buyuk Selcuklu Devleti
+                  Büyük Selçuklu Devleti
                 </Link>
               </li>
               <li>
@@ -94,7 +94,7 @@ export function Footer() {
                   href="/anadolu-selcuklu"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Anadolu Selcuklu Devleti
+                  Anadolu Selçuklu Devleti
                 </Link>
               </li>
               <li>
@@ -102,7 +102,7 @@ export function Footer() {
                   href="/goc-yollari"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Goc Yollari Haritasi
+                  Göç Yolları Haritası
                 </Link>
               </li>
             </ul>
@@ -111,8 +111,8 @@ export function Footer() {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            Bu portal, Turk tarihini gelecek nesillere aktarmak amaciyla
-            hazirlanmistir.
+            Bu portal, Türk tarihini gelecek nesillere aktarmak amacıyla
+            hazırlanmıştır.
           </p>
         </div>
       </div>

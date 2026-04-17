@@ -7,10 +7,10 @@ const turkishStates = [
   {
     href: "/asya-hun",
     title: "Asya Hun Devleti",
-    period: "MO 220 - MS 216",
+    period: "MÖ 220 - MS 216",
     location: "Orta Asya",
     description:
-      "Tarihte bilinen ilk buyuk Turk devleti. Teoman tarafindan kurulmus, Mete Han doneminde en parlak cagini yasamistir.",
+      "Tarihte bilinen ilk büyük Türk devleti. Teoman tarafından kurulmuş, Mete Han döneminde en parlak çağını yaşamıştır.",
     emoji: "🏹",
   },
   {
@@ -19,16 +19,16 @@ const turkishStates = [
     period: "375 - 469",
     location: "Avrupa",
     description:
-      "Balamir onderligi altinda Avrupa'ya goc eden Hunlar, Attila doneminde en guclu donemini yasamistir.",
+      "Balamir önderliği altında Avrupa'ya göç eden Hunlar, Attila döneminde en güçlü dönemini yaşamıştır.",
     emoji: "⚔️",
   },
   {
     href: "/gokturk",
-    title: "Gokturk Devleti",
+    title: "Göktürk Devleti",
     period: "552 - 745",
     location: "Orta Asya",
     description:
-      "'Turk' adini kullanan ilk devlet. Orhun Kitabeleri ile Turk tarihine onemli bir miras birakmistir.",
+      "'Türk' adını kullanan ilk devlet. Orhun Kitabeleri ile Türk tarihine önemli bir miras bırakmıştır.",
     emoji: "🐺",
   },
   {
@@ -37,16 +37,16 @@ const turkishStates = [
     period: "744 - 840",
     location: "Orta Asya",
     description:
-      "Yerlsik hayata gecen ilk Turk devleti. Matbaayi kullanan ve ticaretle one cikan bir medeniyet kurmuslardir.",
+      "Yerleşik hayata geçen ilk Türk devleti. Yazılı kültürü geliştiren ve ticaretle öne çıkan bir medeniyet kurmuşlardır.",
     emoji: "📜",
   },
   {
     href: "/karahanli",
-    title: "Karahanli Devleti",
+    title: "Karahanlı Devleti",
     period: "840 - 1212",
     location: "Orta Asya",
     description:
-      "Ilk Musluman Turk devleti. Kasgarli Mahmut'un Divanu Lugati't-Turk eseri bu donemde yazilmistir.",
+      "İlk Müslüman Türk devleti. Kaşgarlı Mahmut'un Divanu Lugati't-Türk eseri bu dönemde yazılmıştır.",
     emoji: "🕌",
   },
   {
@@ -55,25 +55,25 @@ const turkishStates = [
     period: "963 - 1187",
     location: "Afganistan - Hindistan",
     description:
-      "Sultan unvanini kullanan ilk Turk devleti. Gazneli Mahmut doneminde en guclu halini almistir.",
+      "Sultan unvanını kullanan ilk Türk devleti. Gazneli Mahmut döneminde en güçlü halini almıştır.",
     emoji: "👑",
   },
   {
     href: "/buyuk-selcuklu",
-    title: "Buyuk Selcuklu Devleti",
+    title: "Büyük Selçuklu Devleti",
     period: "1037 - 1157",
-    location: "Iran - Anadolu",
+    location: "İran - Anadolu",
     description:
-      "1071 Malazgirt Zaferi ile Anadolu'nun kapilarini Turklere acmis, tarihin akisini degistirmistir.",
+      "1071 Malazgirt Zaferi ile Anadolu'nun kapılarını Türklere açmış, tarihin akışını değiştirmiştir.",
     emoji: "🦅",
   },
   {
     href: "/anadolu-selcuklu",
-    title: "Anadolu Selcuklu Devleti",
+    title: "Anadolu Selçuklu Devleti",
     period: "1077 - 1308",
     location: "Anadolu",
     description:
-      "Anadolu'da kurulan ilk Turk devleti. Konya baskentlik yapmis, zengin bir kultur mirasi birakmistir.",
+      "Anadolu'da kurulan ilk Türk devleti. Konya başkentlik yapmış, zengin bir kültür mirası bırakmıştır.",
     emoji: "🏛️",
   },
 ];
@@ -88,27 +88,27 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-sm text-primary mb-6">
               <Clock className="w-4 h-4" />
-              MO 220&apos;den MS 1308&apos;e
+              MÖ 220&apos;den MS 1308&apos;e
             </div>
             <h1 className="font-serif text-4xl md:text-6xl font-bold text-foreground mb-6 text-balance">
-              Turk Devletleri ve Goc Yollari
+              Türk Devletleri ve Göç Yolları
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed text-pretty">
-              Orta Asya&apos;nin engin bozkırlarindan Anadolu&apos;nun verimli
-              topraklarina uzanan destansi bir yolculuk. Bin yillik Turk
-              tarihini kesfetmeye hazir misiniz?
+              Orta Asya&apos;nın engin bozkırlarından Anadolu&apos;nun verimli
+              topraklarına uzanan destansı bir yolculuk. Bin yıllık Türk
+              tarihini keşfetmeye hazır mısınız?
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/asya-hun">
                 <Button size="lg" className="gap-2">
                   <BookOpen className="w-5 h-5" />
-                  Yolculuga Basla
+                  Yolculuğa Başla
                 </Button>
               </Link>
               <Link href="/goc-yollari">
                 <Button variant="outline" size="lg" className="gap-2">
                   <Map className="w-5 h-5" />
-                  Goc Yollari Haritasi
+                  Göç Yolları Haritası
                 </Button>
               </Link>
             </div>
@@ -122,11 +122,11 @@ export default function HomePage() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Turk Devletleri
+                Türk Devletleri
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Tarih boyunca kurulan buyuk Turk devletlerini kronolojik sirayla
-                kesfet
+                Tarih boyunca kurulan büyük Türk devletlerini kronolojik sırayla
+                keşfet
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -146,16 +146,16 @@ export default function HomePage() {
               <Map className="w-8 h-8 text-primary" />
             </div>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Goc Yollari Haritasi
+              Göç Yolları Haritası
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-              Turklerin Orta Asya&apos;dan Anadolu&apos;ya uzanan bin yillik goc
-              seruveni. Kavimler Gocu&apos;nden Malazgirt&apos;e kadar tum
-              tarihi guzergahlar.
+              Türklerin Orta Asya&apos;dan Anadolu&apos;ya uzanan bin yıllık göç
+              serüveni. Kavimler Göçü&apos;nden Malazgirt&apos;e kadar tüm
+              tarihi güzergahlar.
             </p>
             <Link href="/goc-yollari">
               <Button size="lg" className="gap-2">
-                Haritayi Incele
+                Haritayı İncele
                 <ArrowRight className="w-5 h-5" />
               </Button>
             </Link>
@@ -168,17 +168,17 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-12 text-center">
-              Tarih Zaman Cizelgesi
+              Tarih Zaman Çizelgesi
             </h2>
             <div className="relative">
               <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-accent to-primary/30" />
               <div className="space-y-8">
                 {[
-                  { year: "MO 220", event: "Asya Hun Devleti kuruldu" },
-                  { year: "375", event: "Kavimler Gocu basladi" },
-                  { year: "552", event: "Gokturk Devleti kuruldu" },
-                  { year: "840", event: "Karahanlilar Muslumanligi kabul etti" },
-                  { year: "1040", event: "Dandanakan Savasi" },
+                  { year: "MÖ 220", event: "Asya Hun Devleti kuruldu" },
+                  { year: "375", event: "Kavimler Göçü başladı" },
+                  { year: "552", event: "Göktürk Devleti kuruldu" },
+                  { year: "840", event: "Karahanlılar Müslümanlığı kabul etti" },
+                  { year: "1040", event: "Dandanakan Savaşı" },
                   { year: "1071", event: "Malazgirt Zaferi" },
                 ].map((item, index) => (
                   <div
