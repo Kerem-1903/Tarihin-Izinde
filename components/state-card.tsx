@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Calendar, MapPin } from "lucide-react";
 
@@ -27,11 +28,11 @@ export function StateCard({
         {image && (
           <div className="relative h-48 w-full overflow-hidden shrink-0">
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img 
+            <Image 
               src={image} 
               alt={title} 
-              className="absolute inset-0 object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out"
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
             />
             <div className="absolute bottom-4 left-4 z-20">
               <div className="w-12 h-12 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 shadow-xl flex items-center justify-center text-2xl">

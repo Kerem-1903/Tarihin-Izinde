@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { StateCard } from "@/components/state-card";
 import { HeroImage } from "@/components/hero-image";
@@ -94,11 +95,12 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative py-24 md:py-40 overflow-hidden">
         {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url('/images/home-portal.png')`,
-          }}
+        <Image
+          src="/images/home-portal.png"
+          alt="Portal Background"
+          fill
+          className="object-cover object-center"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
         <div className="absolute inset-0 pattern-overlay" />
@@ -188,11 +190,11 @@ export default function HomePage() {
 
       {/* Migration Routes CTA */}
       <section className="py-16 md:py-24 relative overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: `url('/images/goc-yollari-map.jpeg')`,
-          }}
+        <Image
+          src="/images/goc-yollari-map.jpeg"
+          alt="Göç Haritası Background"
+          fill
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-background/85 backdrop-blur-sm" />
         <div className="container mx-auto px-4 relative z-10">
