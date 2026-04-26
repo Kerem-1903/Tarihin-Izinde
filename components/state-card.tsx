@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Calendar, MapPin } from "lucide-react";
+import { getImagePath } from "@/lib/utils";
 
 interface StateCardProps {
   href: string;
@@ -29,7 +30,7 @@ export function StateCard({
           <div className="relative h-48 w-full overflow-hidden shrink-0">
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
             <Image 
-              src={image} 
+              src={getImagePath(image)} 
               alt={title} 
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { StateCard } from "@/components/state-card";
 import { HeroImage } from "@/components/hero-image";
 import { ScrollReveal } from "@/components/scroll-reveal";
+import { getImagePath } from "@/lib/utils";
 import { ArrowRight, Map, BookOpen, Clock, Sparkles } from "lucide-react";
 
 const turkishStates = [
@@ -96,7 +97,7 @@ export default function HomePage() {
       <section className="relative py-24 md:py-40 overflow-hidden">
         {/* Background Image */}
         <Image
-          src="/images/home-portal.png"
+          src={getImagePath("/images/home-portal.png")}
           alt="Portal Background"
           fill
           className="object-cover object-center"
@@ -191,7 +192,7 @@ export default function HomePage() {
       {/* Migration Routes CTA */}
       <section className="py-16 md:py-24 relative overflow-hidden">
         <Image
-          src="/images/goc-yollari-map.jpeg"
+          src={getImagePath("/images/goc-yollari-map.jpeg")}
           alt="Göç Haritası Background"
           fill
           className="object-cover object-center"

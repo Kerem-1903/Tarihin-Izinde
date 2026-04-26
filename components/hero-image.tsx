@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { getImagePath } from "@/lib/utils";
 
 interface HeroImageProps {
   src: string;
@@ -19,7 +20,7 @@ export function HeroImage({ src, alt, caption }: HeroImageProps) {
     >
       <div className="relative aspect-video w-full overflow-hidden rounded-2xl shadow-2xl border-4 border-background/50">
         <Image
-          src={src}
+          src={getImagePath(src)}
           alt={alt}
           fill
           className="object-cover transition-transform duration-700 hover:scale-105"
