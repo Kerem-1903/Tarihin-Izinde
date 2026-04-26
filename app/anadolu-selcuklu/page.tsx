@@ -65,7 +65,7 @@ export default function AnadoluSelcukluPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/anadoluselcuklu/1600/900"
+        src="/images/anadolu-selcuklu.jpg"
         alt="Kervansaray ve Anadolu taş işçiliği"
         caption="Anadolu Selçuklu Kervansarayları"
       />

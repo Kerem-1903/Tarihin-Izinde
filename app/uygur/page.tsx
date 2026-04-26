@@ -65,7 +65,7 @@ export default function UygurPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/uygur/1600/900"
+        src="/images/uygur.jpg"
         alt="Uygur dönemi kalıntıları ve ipek yolu manzarası"
         caption="Turfan Bölgesi / İpek Yolu"
       />

@@ -66,7 +66,7 @@ export default function GokturkPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/gokturk/1600/900"
+        src="/images/gokturk.jpg"
         alt="Uçsuz bucaksız Orta Asya vadileri"
         caption="Ötüken Ormanları ve Vadiler"
       />

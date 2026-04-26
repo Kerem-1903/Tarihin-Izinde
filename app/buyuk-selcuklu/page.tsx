@@ -66,7 +66,7 @@ export default function BuyukSelcukluPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/buyukselcuklu/1600/900"
+        src="/images/buyuk-selcuklu.jpg"
         alt="Selçuklu mimarisi kemerleri"
         caption="Büyük Selçuklu Mimarisi"
       />

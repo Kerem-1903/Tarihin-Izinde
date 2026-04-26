@@ -65,7 +65,7 @@ export default function KarahanliPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/karahanli/1600/900"
+        src="/images/karahanli.jpg"
         alt="İslâm Mimarisi detayları"
         caption="Karahanlı Dönemi Türk-İslam Mimarisi"
       />

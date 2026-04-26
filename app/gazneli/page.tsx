@@ -66,7 +66,7 @@ export default function GazneliPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/gazneli/1600/900"
+        src="/images/gazneli.jpg"
         alt="Geniş kale ve mimari yapılar"
         caption="Gazne ve Hindistan Seferleri"
       />

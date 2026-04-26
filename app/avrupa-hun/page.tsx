@@ -65,7 +65,7 @@ export default function AvrupaHunPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/avrupahun/1600/900"
+        src="/images/avrupa-hun.jpg"
         alt="Avrupa Hun Göçleri ve Dağlar"
         caption="Karpat Dağları ve Göç Yolları"
       />

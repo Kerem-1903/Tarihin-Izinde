@@ -191,7 +191,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1542336391-ae2936d8efe4?w=1920&q=80')`,
+            backgroundImage: `url('/images/goc-yollari-map.jpeg')`,
           }}
         />
         <div className="absolute inset-0 bg-background/85 backdrop-blur-sm" />
