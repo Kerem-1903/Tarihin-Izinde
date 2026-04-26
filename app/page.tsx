@@ -14,7 +14,7 @@ const turkishStates = [
     description:
       "Tarihte bilinen ilk büyük Türk devleti. Teoman tarafından kurulmuş, Mete Han döneminde en parlak çağını yaşamıştır.",
     emoji: "🏹",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
+    image: "/images/asya-hun.jpg",
   },
   {
     href: "/avrupa-hun",
@@ -24,7 +24,7 @@ const turkishStates = [
     description:
       "Balamir önderliği altında Avrupa'ya göç eden Hunlar, Attila döneminde en güçlü dönemini yaşamıştır.",
     emoji: "⚔️",
-    image: "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?w=800&q=80",
+    image: "/images/avrupa-hun.jpg",
   },
   {
     href: "/gokturk",
@@ -34,7 +34,7 @@ const turkishStates = [
     description:
       "'Türk' adını kullanan ilk devlet. Orhun Kitabeleri ile Türk tarihine önemli bir miras bırakmıştır.",
     emoji: "🐺",
-    image: "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=800&q=80",
+    image: "/images/gokturk.jpg",
   },
   {
     href: "/uygur",
@@ -44,7 +44,7 @@ const turkishStates = [
     description:
       "Yerleşik hayata geçen ilk Türk devleti. Yazılı kültürü geliştiren ve ticaretle öne çıkan bir medeniyet kurmuşlardır.",
     emoji: "📜",
-    image: "https://images.unsplash.com/photo-1513415564515-763d91423bdd?w=800&q=80",
+    image: "/images/uygur.jpg",
   },
   {
     href: "/karahanli",
@@ -54,7 +54,7 @@ const turkishStates = [
     description:
       "İlk Müslüman Türk devleti. Kaşgarlı Mahmut'un Divanu Lugati't-Türk eseri bu dönemde yazılmıştır.",
     emoji: "🕌",
-    image: "https://images.unsplash.com/photo-1564769625673-cb380fb9ec8a?w=800&q=80",
+    image: "/images/karahanli.jpg",
   },
   {
     href: "/gazneli",
@@ -64,7 +64,7 @@ const turkishStates = [
     description:
       "Sultan unvanını kullanan ilk Türk devleti. Gazneli Mahmut döneminde en güçlü halini almıştır.",
     emoji: "👑",
-    image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80",
+    image: "/images/gazneli.jpg",
   },
   {
     href: "/buyuk-selcuklu",
@@ -74,7 +74,7 @@ const turkishStates = [
     description:
       "1071 Malazgirt Zaferi ile Anadolu'nun kapılarını Türklere açmış, tarihin akışını değiştirmiştir.",
     emoji: "🦅",
-    image: "https://images.unsplash.com/photo-1590076082562-e1b4ae049bd4?w=800&q=80",
+    image: "/images/buyuk-selcuklu.jpg",
   },
   {
     href: "/anadolu-selcuklu",
@@ -84,7 +84,7 @@ const turkishStates = [
     description:
       "Anadolu'da kurulan ilk Türk devleti. Konya başkentlik yapmış, zengin bir kültür mirası bırakmıştır.",
     emoji: "🏛️",
-    image: "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=800&q=80",
+    image: "/images/anadolu-selcuklu.jpg",
   },
 ];
 
@@ -97,7 +97,7 @@ export default function HomePage() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=1920&q=80')`,
+            backgroundImage: `url('/images/home-portal.png')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />

@@ -144,9 +144,9 @@ export default function GocYollariPage() {
       </section>
 
       <HeroImage
-        src="https://picsum.photos/seed/gocyollari/1600/900"
-        alt="Zorlu doğa koşullarında göç edenler"
-        caption="Büyük Göç Dalgaları"
+        src="/images/goc-yollari-map.jpeg"
+        alt="Türk Göç Yolları Haritası"
+        caption="Tarihin İzinde Yolculuk Et!"
       />
 
       {/* Interactive Map Section */}
