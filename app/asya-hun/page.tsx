@@ -65,7 +65,7 @@ export default function AsyaHunPage() {
       />
 
       <HeroImage
-        src="https://picsum.photos/seed/asyahun/1600/900"
+        src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1600&q=80"
         alt="Asya Hun Bozkırları ve Atlar"
         caption="Orta Asya Bozkırları"
       />
