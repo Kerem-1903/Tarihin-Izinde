@@ -1,0 +1,152 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #faf6f1;
+  --foreground: #2d2016;
+  --card: #ffffff;
+  --card-foreground: #2d2016;
+  --popover: #ffffff;
+  --popover-foreground: #2d2016;
+  --primary: #8b5a2b;
+  --primary-foreground: #faf6f1;
+  --secondary: #f5ebe0;
+  --secondary-foreground: #2d2016;
+  --muted: #e8dfd4;
+  --muted-foreground: #6b5344;
+  --accent: #d4a574;
+  --accent-foreground: #2d2016;
+  --destructive: #b91c1c;
+  --destructive-foreground: #faf6f1;
+  --border: #d4c4b0;
+  --input: #d4c4b0;
+  --ring: #8b5a2b;
+  --chart-1: #8b5a2b;
+  --chart-2: #d4a574;
+  --chart-3: #c9a86c;
+  --chart-4: #a67c52;
+  --chart-5: #6b5344;
+  --radius: 0.625rem;
+}
+
+.dark {
+  --background: #1a1410;
+  --foreground: #faf6f1;
+  --card: #2d2016;
+  --card-foreground: #faf6f1;
+  --popover: #2d2016;
+  --popover-foreground: #faf6f1;
+  --primary: #d4a574;
+  --primary-foreground: #1a1410;
+  --secondary: #3d2e1f;
+  --secondary-foreground: #faf6f1;
+  --muted: #3d2e1f;
+  --muted-foreground: #c9b89a;
+  --accent: #c9a86c;
+  --accent-foreground: #1a1410;
+  --destructive: #dc2626;
+  --destructive-foreground: #faf6f1;
+  --border: #4a3828;
+  --input: #4a3828;
+  --ring: #d4a574;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), "Geist", "Geist Fallback";
+  --font-serif: var(--font-noto-serif), "Noto Serif", serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback";
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Historical pattern overlay */
+.pattern-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%238b5a2b' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(139, 90, 43, 0.15);
+}
+
+/* Map container styles */
+.map-container {
+  background: linear-gradient(135deg, var(--muted) 0%, var(--background) 100%);
+  border: 2px solid var(--border);
+}
+
+
+/* Timeline styles */
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 3px solid var(--background);
+  box-shadow: 0 0 0 2px var(--primary);
+}
+
+.timeline-line {
+  width: 2px;
+  background: linear-gradient(180deg, var(--primary) 0%, var(--accent) 100%);
+}
